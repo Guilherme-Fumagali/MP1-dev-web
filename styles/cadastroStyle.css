@@ -29,7 +29,7 @@ label {
     color: #1E90FF;
 }
 
-input[type="text"], input[type="email"], input[type="number"], textarea, select {
+input[type="text"], input[type="email"],input[type="date"], textarea, select {
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
@@ -44,4 +44,22 @@ input[type="submit"]:hover {
 
 #item_year {
     margin-bottom: 20px;
+}
+
+.submit-btn {
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    float: right;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
 }
