@@ -20,7 +20,6 @@ form {
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 2px 2px 5px #ccc;
-    margin: 20px;
 }
 
 label {
@@ -33,13 +32,14 @@ input[type="text"], input[type="email"],input[type="date"], textarea, select {
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
     box-sizing: border-box;
     width: 100%;
 }
 
 input[type="submit"]:hover {
     background-color: #45a049;
+    transition: 0.3s;
 }
 
 #item_year {
@@ -60,6 +60,14 @@ input[type="submit"] {
 }
 
 .error-message {
+    position: relative;
     color: red;
     font-size: 12px;
+    bottom: 24px;
+    padding: 1px;
+}
+
+
+section {
+    width: 100%;
 }

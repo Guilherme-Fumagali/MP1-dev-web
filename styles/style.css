@@ -147,3 +147,8 @@ footer {
     color: #e3f2fd;
     width: 100%;
 }
+
+footer p {
+    font-size: 12px;
+    margin: 0;
+}
