@@ -2,30 +2,35 @@
 
 <html>
   <head>
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" type="text/css" href="styles/cadastroStyle.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Itens</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/cadastroStyle.css">
+
     <!-- google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <!-- -->
-    <!-- jQuery -->
+    
+    <!-- jQuery e JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./scripts/validacao.js"></script>
     <script> 
       $(function(){
           $("#menu").load("menu.html"); 
           $("#footer").load("footer.html");
       });
-  </script>
-    <!--  -->
-  <script src="./scripts/validacao.js"></script>
+    </script>
   </head>
+  
   <body>
     <header id="menu"></header>
     <h1 class="titulolinha">Cadastro de Itens</h1>
