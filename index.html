@@ -24,13 +24,13 @@
     <!--  -->
     <script > 
         $(function(){
-            $("#includedContent").load("menu.html"); 
+            $("#menu").load("menu.html"); 
+            $("#footer").load("footer.html");
         });
     </script>
 </head>
 <body>
-    <header id="includedContent"></header>
-
+    <header id="menu"></header>
     <div id="carouselBanner" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselBanner" data-slide-to="0" class="active"></li>
@@ -125,9 +125,6 @@
         </section>
     </main>   
 
-    <footer> 
-        <p>Web Development - UFSCar Sorocaba - 2022</p> 
-        <p>Guilherme Fumagali - Guilherme Silva - Vinicius Nanini - Rodrigo Henrique</p>
-    </footer>
+    <footer id="footer"></footer>
 </body>
 </html>

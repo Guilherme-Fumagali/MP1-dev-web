@@ -19,14 +19,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script> 
       $(function(){
-          $("#includedContent").load("menu.html"); 
+          $("#menu").load("menu.html"); 
+          $("#footer").load("footer.html");
       });
   </script>
     <!--  -->
   <script src="./scripts/validacao.js"></script>
   </head>
   <body>
-    <header id="includedContent"></header>
+    <header id="menu"></header>
     <h1 class="titulolinha">Cadastro de Itens</h1>
     <form name="formcad" onsubmit="return validacao()">
       <section>
@@ -73,5 +74,7 @@
       
       <input type="submit" value="Cadastrar" class="submit-btn" id="submit">    
     </form> 
+
+    <footer id="footer"></footer>
   </body>
 </html>
